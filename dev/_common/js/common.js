@@ -64,12 +64,12 @@ function init(id){
 		break;
 
 		case "970x90":
-		tl.set(".ill", {transformOrigin:`${w*.75}px ${h/2}px`, x:0, y:0 })
+		tl.set(".ill", {transformOrigin:`${w*.33}px ${h/2}px`, x:0, y:0 })
 		tl.set(".phone", {y:"+=100", opacity:0})
 		break;
 
 		case "640x100":
-		tl.set(".ill", {transformOrigin:`${w*.75}px ${h*2}px`, x:0, y:0 })
+		tl.set(".ill", {transformOrigin:`${w*.25}px ${h*2}px`, x:0, y:0 })
 		tl.set(".phone", {y:size.h})	
 		break;
 
